@@ -25,7 +25,8 @@ makeCacheMatrix <- function(x = matrix()) {
 # If inverse was previously calculated for the given matrix
 # Stored (Cached) value will be returned
 
-## Written by Uri Lerner as part of the Coursera R programming course (031)
+## Written by Uri Lerner as part of the Coursera R programming course (032)
+# Set on the principle of Lexical Scoping and handling of functions and variables by R
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
